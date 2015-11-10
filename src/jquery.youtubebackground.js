@@ -185,7 +185,7 @@ if (typeof Object.create !== "function") {
       var self = this;
 
       /*jshint multistr: true */
-      var $YTPlayerString = $('<div id="ytplayer-container' + self.ID + '" >\
+      var $YTPlayerString = $('<div id="ytplayer-container' + self.ID + '" class="ytplayer-container">\
                                     <div id="' + self.holderID + '" class="ytplayer-player"></div> \
                                     </div> \
                                     <div id="ytplayer-shield" class="ytplayer-shield"></div>');
