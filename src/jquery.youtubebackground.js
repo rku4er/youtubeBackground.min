@@ -126,7 +126,7 @@ if (typeof Object.create !== "function") {
         'onStateChange': function(e) {
           if (e.data === 1) {
 
-            self.$node.find('img').fadeOut(400);
+            //self.$node.find('img').fadeOut(400);
             self.$node.addClass('loaded');
           } else if (e.data === 0 && self.options.repeat) { // video ended and repeat option is set true
             self.player.seekTo(self.options.start);
